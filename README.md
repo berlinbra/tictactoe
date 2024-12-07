@@ -1,52 +1,30 @@
-# Tic Tac Toe Python Game
+# Tic-tac-toe Game
 
-A simple command-line implementation of the classic Tic Tac Toe game in Python.
+A simple command-line implementation of the classic Tic-tac-toe game in Python.
 
 ## Features
 
-- Two-player game
+- Two-player gameplay
 - Command-line interface
 - Input validation
-- Game state tracking
-
-## Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/berlinbra/tictactoe.git
-   cd tictactoe
-   ```
-
-2. Run the game:
-   ```bash
-   python src/main.py
-   ```
+- Win condition checking
+- Draw condition checking
 
 ## How to Play
 
-1. The game is played on a 3x3 grid
-2. Players take turns placing their mark (X or O) in empty squares
-3. The first player to get 3 marks in a row (horizontally, vertically, or diagonally) wins
-4. If all squares are filled and no player has won, the game is a draw
+1. Run the game:
+   ```bash
+   python tictactoe.py
+   ```
+2. Players take turns entering their moves (1-9)
+3. First player to get three in a row wins!
 
 ## Project Structure
 
-```
-.
-├── README.md
-├── .gitignore
-├── src/
-│   ├── main.py
-│   ├── game.py
-│   └── board.py
-└── tests/
-    └── test_game.py
-```
+- `tictactoe.py`: Main game logic
+- `requirements.txt`: Project dependencies
+- `.gitignore`: Git ignore file
 
-## Contributing
+## Requirements
 
-Feel free to fork the repository and submit pull requests.
-
-## License
-
-This project is open source and available under the MIT License.
+- Python 3.6+
